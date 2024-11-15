@@ -7,6 +7,7 @@ export const corsHeaders = (role: string, origin: string) => {
             originValue = origin;
         }
     }
+    originValue = "*";
 
     return {
         "Access-Control-Allow-Origin": originValue,

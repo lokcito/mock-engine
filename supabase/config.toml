@@ -212,3 +212,7 @@ import_map = './import_map.json'
 [functions.fake]
 verify_jwt = false
 import_map = './import_map.json'
+
+[functions.postLabels]
+verify_jwt = false
+import_map = './import_map.json'
